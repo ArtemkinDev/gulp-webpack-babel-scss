@@ -1,0 +1,55 @@
+/*! Main stylesheet */
+//------------------------------------------------------------------------------
+// Configuration (setup/settings: functions, mixins, variables)
+//------------------------------------------------------------------------------
+
+// include-media (vendor functions and mixins, MUST come before variables)
+
+// Variables (typography, colors, layout)
+$base-font-family: sans-serif !default;
+
+//------------------------------------------------------------------------------
+// Global (reset, reboot unclassed selectors)
+//------------------------------------------------------------------------------
+
+// Reset (vendor module)
+
+// Reboot (base, elements, media, tables, forms)
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $base-font-family;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+//------------------------------------------------------------------------------
+// Objects (purely structural reusable objects)
+//------------------------------------------------------------------------------
+
+
+//------------------------------------------------------------------------------
+// Components (designed reusable patterns)
+//------------------------------------------------------------------------------
+
+.row {
+  h1 {
+    color: red;
+  }
+}
+//------------------------------------------------------------------------------
+// Utilities (helpers classes, cross-browser bugs, print styles)
+//------------------------------------------------------------------------------
+
+// etc...
